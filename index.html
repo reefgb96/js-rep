@@ -22,7 +22,9 @@
 
 <body>
 
-    <div id="tk-container">
+    <!-- ///////////// Tasks 1-4 ///////////// -->
+
+    <div id="tk-container my-5">
         <h1 id="h1-title">this is a title</h1>
         <input id="input" type="text">
         <button id="btn" onclick="handleChangeBg()">change color</button>
@@ -35,7 +37,9 @@
         </select>
     </div>
 
-    <div id="tk-container2">
+        <!-- ///////////// Task 5 ///////////// -->
+
+    <div id="tk-container2 my-5">
         <h1 id="h1-title2">this is a title</h1>
         <input id="input2" type="text">
         <button id="btn2" onclick="handleChangeBg2()">change color</button>
@@ -48,10 +52,14 @@
         </select>
     </div>
 
-    <div class="container">
+        <!-- ///////////// Bonus task ///////////// -->
+
+    <div class="container my-5">
         <div class="row">
             <div class="col">
-                <div class="card"></div>
+                <input onchange="handleChangeBackground()" type="text" id="input3">
+                <button onclick="handleOpenCard()" id="btn3">Open card!</button>
+                <div id="card"></div>
             </div>
         </div>
     </div>
