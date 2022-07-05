@@ -23,45 +23,50 @@
 <body>
 
     <!-- ///////////// Tasks 1-4 ///////////// -->
-    <h1>Task 1-4</h1>
 
-    <div id="tk-container my-5">
-        <h1 id="h1-title">this is a title</h1>
-        <input id="input" type="text">
-        <button id="btn" onclick="handleChangeBg()">change color</button>
+    <div class="container" id="tk-container">
+        <div class="row d-flex flex-column mb-3">
+            <div class="col text-center my-3">
+                <h1 class="task-title my-5">Task 1-4</h1>
+                <h1 id="h1-title">this is a title</h1>
+                <input id="input" type="text">
+                <button id="btn" onclick="handleChangeBg()">change color</button>
 
-        <select onchange="handleChangeColor()" name="color-pick" id="color-change">
-            <option value="red">red</option>
-            <option value="green">green</option>
-            <option value="blue">blue</option>
-            <option value="yellow">yellow</option>
-        </select>
-    </div>
+                <select onchange="handleChangeColor()" name="color-pick" id="color-change">
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="blue">blue</option>
+                    <option value="yellow">yellow</option>
+                </select>
+            </div>
 
-        <!-- ///////////// Task 5 ///////////// -->
-        <h1>5</h1>
 
-    <div id="tk-container2 my-5">
-        <h1 id="h1-title2">this is a title</h1>
-        <input id="input2" type="text">
-        <button id="btn2" onclick="handleChangeBg2()">change color</button>
+            <!-- ///////////// Task 5 ///////////// -->
 
-        <select onchange="handleChangeColor2()" name="color-pick2" id="color-change2">
-            <option value="red">red</option>
-            <option value="green">green</option>
-            <option value="blue">blue</option>
-            <option value="yellow">yellow</option>
-        </select>
-    </div>
+            <div class="col text-center my-3">
+                <h1 class="task-title my-5">Task 5</h1>
+                <h1 id="h1-title2">this is a title</h1>
+                <input id="input2" type="text">
+                <button id="btn2" onclick="handleChangeBg2()">change color</button>
 
-        <!-- ///////////// Bonus task ///////////// -->
-        <h1>Task 9</h1>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col">
-                <input onchange="handleChangeBackground()" type="text" id="input3">
-                <button onclick="handleOpenCard()" id="btn3">Open card!</button>
-                <div id="card"></div>
+                <select onchange="handleChangeColor2()" name="color-pick2" id="color-change2">
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="blue">blue</option>
+                    <option value="yellow">yellow</option>
+                </select>
+            </div>
+
+            <!-- ///////////// Bonus task ///////////// -->
+
+            <div class="col text-center my-3">
+                <h1 class="task-title my-5">Task 9</h1>
+                <div class="container my-5">
+                    <input onchange="handleChangeBackground()" type="text" id="input3">
+                    <button onclick="handleOpenCard()" id="btn3">Open card!</button>
+                    <div id="card"></div>
+                </div>
+
             </div>
         </div>
     </div>
