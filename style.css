@@ -12,4 +12,9 @@
   padding: 20px;
   width: 15vw;
   background-color: rgba(242, 244, 246, 0.4862745098);
+}
+
+.logo img {
+  width: 8%;
+  margin: 10px auto;
 }/*# sourceMappingURL=style.css.map */
